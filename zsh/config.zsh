@@ -1,4 +1,4 @@
-autoload -U $ZSH/functions/*(:t)
+autoload -U $ZSHDOT/functions/*(:t)
 
 HISTFILE=~/.zsh_history
 HISTSIZE=10000
@@ -28,6 +28,8 @@ setopt HIST_REDUCE_BLANKS
 # don't expand aliases _before_ completion has finished
 #   like: git comm-[tab]
 setopt complete_aliases
+
+source $ZSH/oh-my-zsh.sh
 
 zle -N newtab
 
