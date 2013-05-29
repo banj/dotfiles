@@ -5,7 +5,7 @@ HISTSIZE=10000
 SAVEHIST=10000
 
 ZSH_THEME="gallois"
-plugins=(git ruby rvm rake rails sublime svn)
+plugins=(bower git git-extra gem laravel rails rake ruby rvm sublime svn)
 
 setopt NO_BG_NICE # don't nice background tasks
 setopt NO_HUP
