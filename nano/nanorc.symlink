@@ -1,0 +1,5 @@
+set smooth
+set softwrap
+set autoindent
+set tabsize 2
+set tabstospaces
