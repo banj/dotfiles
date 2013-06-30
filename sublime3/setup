@@ -3,6 +3,6 @@
 set -x
 
 # symlink settings in
-sublime_dir=~/.config/sublime-text-2/Packages
+sublime_dir=~/.config/sublime-text-3/Packages
 mv "$sublime_dir/User" "$sublime_dir/User.backup"
-ln -s "$ZSHDOT/sublime2/User" "$sublime_dir"
+ln -s "$ZSHDOT/sublime3/User" "$sublime_dir"
