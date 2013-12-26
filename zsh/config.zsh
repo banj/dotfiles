@@ -4,8 +4,8 @@ HISTFILE=~/.zsh_history
 HISTSIZE=10000
 SAVEHIST=10000
 
-ZSH_THEME="gallois"
-plugins=(bower git git-extra gem laravel rails rake ruby rvm sublime svn)
+ZSH_THEME="skrum"
+plugins=(bower colorize git gem nvm rails rake rvm)
 
 setopt NO_BG_NICE # don't nice background tasks
 setopt NO_HUP

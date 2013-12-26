@@ -1,5 +1,9 @@
 set smooth
-set softwrap
-set autoindent
 set tabsize 2
 set tabstospaces
+set wordbounds
+set undo
+set boldtext
+set smarthome
+set nonewlines
+set regexp
